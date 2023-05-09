@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: orangered;
+    background-color: cadetblue;
     justify-content: flex-start; 
 }
 

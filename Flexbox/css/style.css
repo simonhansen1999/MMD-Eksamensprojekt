@@ -1,0 +1,30 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #333333;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: orangered;
+    justify-content: flex-start; 
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 1px 3px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 400px) {
+    .flex-container {   
+      flex-direction: column;
+    }
+  }
